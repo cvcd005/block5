@@ -10,47 +10,49 @@
 <body>
 
 <div class="menu">
-  <div class="menu-header-btn">
-    <button type="button" class="btn">
-      <div class="circle btn-close"></div>
+  <div class="menu-header">
+    <button type="button" class="btn animate-btn">
+      <div class="circle btn__close"></div>
     </button>
-    <div class="logoicon"></div>
-    <button type="button" class="btn">
-      <div class="circle btn-find"></div>
+    <img class="logo" src="img/group.svg" alt="Логотип компании CPS">
+    <button type="button" class="btn animate-btn">
+      <div class="circle btn__find"></div>
     </button>
   </div>
-  <nav class="menu-main">
-      <ul class="menu-main-list">
-        <li class="menu-main__item left-border switch">Ремонт техники</li>
-        <li class="menu-main__item">Услуги и сервисы</li>
-        <li class="menu-main__item">Корпоративным клиентам</li>
-        <li class="menu-main__item">Продавцам техники</li>
-        <li class="menu-main__item">Партнерам</li>
-        <li class="menu-main__item">Производителям</li>
-        <li class="menu-main__item">Наши сервисные центры</li>
-        <li class="menu-main__item">Контакты</li>
-      </ul>
-  </nav>
-  <div class="empty"></div>
-  <div class="menu-footer">
-    <div class="menu-contact">
-      <div class="menu-footer-btn">
-        <button type="button" class="btn"><div class="circle call"></div>
-        </button>
-        <button type="button" class="btn"><div class="circle chat"></div>
-        </button>
-        <button type="button" class="btn"><div class="circle profile"></div>
-        </button>
+  <div class="menu-wrapper">
+    <nav class="menu-main">
+        <ul class="menu-main-list">
+          <li class="menu-main__item active-border">Ремонт техники</li>
+          <li class="menu-main__item">Услуги и сервисы</li>
+          <li class="menu-main__item">Корпоративным клиентам</li>
+          <li class="menu-main__item">Продавцам техники</li>
+          <li class="menu-main__item">Партнерам</li>
+          <li class="menu-main__item">Производителям</li>
+          <li class="menu-main__item">Наши сервисные центры</li>
+          <li class="menu-main__item">Контакты</li>
+        </ul>
+    </nav>
+    <div class="menu-footer">
+      <div class="menu-contact">
+        <div class="menu-footer-btn">
+          <button type="button" class="btn animate-btn margin-right"><div class="circle btn__call"></div>
+          </button>
+          <button type="button" class="btn animate-btn margin-right"><div class="circle btn__chat"></div>
+          </button>
+          <button type="button" class="btn animate-btn"><div class="circle btn__chat"></div>
+          </button>
+        </div>
+        <a href="mailto:mail@cps.com" class="menu-mail">mail@cps.com</a>
+        <a href="tel:+78008908900" class="menu-phone">8 800 890 8900</a>
       </div>
-      <p>mail@cps.com</p>
-      <p class="menu-footer-phone">8 800 890 8900</p>
-    </div>
-    <div class="menu-footer-lang">
-      <button type="button" class="btn btnRu switch">RU</button>
-      <button type="button" class="btn btnEn">EN</button>
-      <button type="button" class="btn btnCH">CH</button>
+      <div class="menu-lang">
+        <button type="button" class="btn btnRu active">RU</button>
+        <button type="button" class="btn btnEn">EN</button>
+        <button type="button" class="btn btnCH">CH</button>
+      </div>
     </div>
   </div>
 </div>
+
 </body>
 </htmL>
